@@ -1,3 +1,8 @@
+this Project use flutter 
+
+GetX
+
+-------------------------------
 # psj_portfolio_flutter_web
 
 A new Flutter project.

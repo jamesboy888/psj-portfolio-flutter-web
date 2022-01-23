@@ -1,0 +1,17 @@
+{
+	"Innovasive GetX Controller Snippet": {
+		"prefix": "controller",
+		"body": [
+			"import 'package:get/get.dart';",
+			"",
+			"class ${1}PageController extends GetxController {",
+			"  @override",
+			"  void onReady() {",
+			"    super.onReady();",
+			"  }",
+			"",
+			"}"
+		],
+		"description": "Innovasive GetX Controller Snippet"
+	}
+}

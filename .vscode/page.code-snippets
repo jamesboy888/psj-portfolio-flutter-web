@@ -1,0 +1,35 @@
+{
+  "Innovasive Page Widget": {
+    "prefix": "page",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "import 'package:get/get.dart';",
+      "",
+      "class ${1}Page extends StatelessWidget {",
+      "  const ${1}Page({",
+      "    Key? key,",
+      "  }) : super(key: key);",
+      "",
+      "  static Future<void> show() async {",
+      "    await Get.to(() => const ${1}Page());",
+      "  }",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return GetBuilder<${1}PageController>(",
+      "      global: false,",
+      "      init: ${1}PageController(),",
+      "      builder: (controller) {",
+      "        return const Scaffold(",
+      "          body: Center(",
+      "            child: Text('${1}'),",
+      "          ),",
+      "        );",
+      "      },",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Innovasive Page Widget"
+  }
+}

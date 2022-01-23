@@ -1,0 +1,9 @@
+{
+  "Import GetX": {
+    "prefix": "get",
+    "body": [
+      "import 'package:get/get.dart';",
+    ],
+    "description": "Import GetX"
+  }
+}

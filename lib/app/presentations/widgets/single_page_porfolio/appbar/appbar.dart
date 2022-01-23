@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:get/state_manager.dart';
+import 'package:get/get.dart';
 
 class PsjPortfolioPageNavbar extends StatelessWidget implements PreferredSizeWidget {
   @override
@@ -24,11 +23,11 @@ class PsjPortfolioPageNavbar extends StatelessWidget implements PreferredSizeWid
     ///
     ///
     Widget _navbarButton({
-      Function(bool value) onHover,
-      Function(bool value) onExit,
-      Function() onPress,
-      String title,
-      TextStyle styleText,
+      required Function(bool value) onHover,
+      required Function(bool value) onExit,
+      required Function() onPress,
+      required String title,
+      required TextStyle styleText,
     }) {
       return MouseRegion(
         onHover: (event) => onHover(true),

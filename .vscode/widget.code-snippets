@@ -1,0 +1,27 @@
+{
+  "Innovasive Widget": {
+    "prefix": "widget",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "import 'package:get/get.dart';",
+      "",
+      "class ${1} extends StatelessWidget {",
+      "  const ${1}({",
+      "    Key? key,",
+      "  }) : super(key: key);",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return GetBuilder<${1}Controller>(",
+      "      global: false,",
+      "      init: ${1}Controller(),",
+      "      builder: (controller) {",
+      "        return Container();",
+      "      },",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Innovasive Widget"
+  }
+}
